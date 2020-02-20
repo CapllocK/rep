@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <title>WowVendor Test (Add user)</title>
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper indigo lighten-3">
+        <a href="/" class="brand-logo">WowVendor Test</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="/">Create user</a></li>
+            <li><a href="role.html">Create role</a></li>
+            <li><a href="users.html">Users list</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <form action="#">
+        <div class="input-field col s12">
+            <input id="userName" type="text" class="validate" required>
+            <label class="active" for="userName">Add user name</label>
+        </div>
+        <div class="input-field col s12">
+            <select>
+
+            </select>
+            <label>Select user role</label>
+        </div>
+        <button id="addUser" class="btn waves-effect waves-light indigo lighten-3" type="submit" name="action">Submit</button>
+
+        <div class="notice" id="notice"></div>
+    </form>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
