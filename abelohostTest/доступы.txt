@@ -1,0 +1,7 @@
+wp-admin
+login: admin
+password: admin
+
+DB
+login: root
+password: 
