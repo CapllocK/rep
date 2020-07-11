@@ -1,0 +1,200 @@
+@media screen and (max-width: 1023px) {
+  .pyramidWrap {
+    width: 740px; }
+  .pyramidWrap .level3 .borderB {
+    width: 297px; }
+  .pyramidWrap .level2 .borderB {
+    width: 445px; }
+  .pyramidWrap .level1 .borderB {
+    width: 594px; }
+  .pyramidWrap .level0 .borderB {
+    width: 743px; }
+  .pyramidWrap .level3 .content {
+    position: relative;
+    width: 167px;
+    top: 38px;
+    left: -34px; }
+  .pyramidWrap .level3 .content .text {
+    width: 96%; }
+  .pyramidWrap .level4 .content img {
+    width: 74px; }
+  .pyramidWrap .level2 .content {
+    width: 320px;
+    top: 46px;
+    left: -35px; }
+  .pyramidWrap .level2 .content .item .imgHolder {
+    height: 58px; }
+  .pyramidWrap .level2 .content .item .imgHolder img {
+    height: 58px; }
+  .pyramidWrap .level2 .content .item:first-child .imgHolder img {
+    height: 40px;
+    width: auto; }
+  .pyramidWrap .level2 .content .item .text {
+    font-size: 12px; }
+  .pyramidWrap .level1 .content {
+    width: 474px;
+    top: 40px;
+    left: -40px; }
+  .pyramidWrap .level1 .content .item .imgHolder {
+    height: 70px; }
+  .pyramidWrap .level1 .content .item .imgHolder img {
+    height: 70px; }
+  .pyramidWrap .level1 .content .item .text {
+    font-size: 11px; }
+  .pyramidWrap .level0 .content {
+    width: 608px; }
+  .pyramidWrap .level0 .content .item .imgHolder img {
+    height: 96px;
+    width: auto; }
+  .pyramidWrap .level0 .content .item .imgHolder {
+    height: 96px; }
+  .pyramidWrap .level .info .decor {
+    height: 5px; }
+  .pyramidWrap .level .info {
+    width: 120px;
+    top: 73px;
+    left: -114px; }
+  .pyramidWrap .level .info .text {
+    font-size: 12px;
+    bottom: 7px; }
+  body {
+    border: none; } }
+
+@media screen and (max-width: 750px) {
+  .titleWrap .top {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 33px; }
+  .titleWrap .middle {
+    font-size: 34px;
+    font-weight: 900;
+    margin: 12px 0 18px 0; }
+  .titleWrap .bottom {
+    font-size: 18px; }
+  .pyramidWrap {
+    width: 85%;
+    margin: 30px auto; }
+  .pyramidWrap .level .border {
+    display: none; }
+  .pyramidWrap .level {
+    border: none;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 2px solid #fff;
+    border-bottom: none;
+    padding: 10px 0; }
+    .pyramidWrap .level:last-child {
+      border-bottom: 2px solid #fff; }
+  .pyramidWrap .level .content {
+    width: 95%;
+    top: initial;
+    left: initial;
+    margin: auto; }
+  .pyramidWrap .level4 .content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .pyramidWrap .level4 .content img {
+    position: relative;
+    top: initial;
+    right: initial;
+    left: initial;
+    bottom: initial;
+    margin: initial;
+    z-index: 0; }
+  .pyramidWrap .level4 {
+    background: #f3724b; }
+  .pyramidWrap .level3 {
+    background: #f58c1f; }
+  .pyramidWrap .level3 .content {
+    width: 45%; }
+  .pyramidWrap .level2 {
+    background: #ffd801; }
+  .pyramidWrap .level2 .content .item .imgHolder img,
+  .pyramidWrap .level2 .content .item .imgHolder {
+    height: 70px; }
+  .pyramidWrap .level2 .content .item:first-child .imgHolder img {
+    height: 51px; }
+  .pyramidWrap .level2 .content .item .text {
+    font-size: 15px; }
+  .pyramidWrap .level1 {
+    background: #a5bb4c; }
+  .pyramidWrap .level1 .content .item .text {
+    font-size: 14px; }
+  .pyramidWrap .level0 {
+    background: #16a69d; }
+  .pyramidWrap .level .info {
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    top: 50%;
+    left: -52px;
+    width: 90px; }
+  .pyramidWrap .level .info .text {
+    font-size: 9px; } }
+
+@media screen and (max-width: 705px) {
+  .pyramidWrap .level2 .content,
+  .pyramidWrap .level1 .content,
+  .pyramidWrap .level0 .content {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .pyramidWrap .level2 .content .item {
+    width: 50%;
+    margin-bottom: 20px; }
+    .pyramidWrap .level2 .content .item:nth-child(3) {
+      margin-bottom: 0; }
+    .pyramidWrap .level2 .content .item:nth-child(4) {
+      margin-bottom: 0; }
+  .pyramidWrap .level1 .content .item {
+    width: 50%; }
+    .pyramidWrap .level1 .content .item:first-child {
+      width: 100%;
+      margin-bottom: 20px; }
+  .pyramidWrap .level0 .content .item {
+    width: 50%; }
+    .pyramidWrap .level0 .content .item:first-child {
+      width: 100%;
+      margin-bottom: 20px; } }
+
+@media screen and (max-width: 465px) {
+  .pyramidWrap .level2 .content .item {
+    width: 100%; }
+  .pyramidWrap .level2 .content .item:nth-child(3) {
+    margin-bottom: 20px; }
+  .pyramidWrap .level1 .content .item {
+    width: 100%;
+    margin-bottom: 20px; }
+    .pyramidWrap .level1 .content .item:last-child {
+      margin-bottom: 0; }
+  .pyramidWrap .level0 .content .item {
+    width: 100%;
+    margin-bottom: 20px; }
+    .pyramidWrap .level0 .content .item:last-child {
+      margin-bottom: 0; }
+  .pyramidWrap .level0 .content .item .imgHolder img {
+    height: 70px;
+    width: auto; }
+  .pyramidWrap .level0 .content .item .imgHolder {
+    height: 70px; }
+  .pyramidWrap .level3 .content {
+    width: 65%; } }

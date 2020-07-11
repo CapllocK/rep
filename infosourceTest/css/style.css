@@ -1,0 +1,312 @@
+/*	vars  */
+/* fonts */
+@font-face {
+  font-family: "Acitynova";
+  src: url("../fonts/acitynova.ttf") format("truetype"), url("../fonts/acitynova.eot?#iefix") format("embedded-opentype"); }
+
+@font-face {
+  font-family: "AcitynovaBold";
+  src: url("../fonts/acitynova_bold.ttf") format("truetype"), url("../fonts/acitynova_bold.eot?#iefix") format("embedded-opentype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+ul, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  border: 16px solid #fff;
+  background: url("../images/mainBg.png") no-repeat 50% 50%;
+  background-size: cover; }
+
+img, a {
+  display: block; }
+
+.clearFix {
+  clear: both; }
+
+.titleWrap {
+  text-transform: uppercase;
+  text-align: center;
+  color: #4f5064;
+  letter-spacing: 2px;
+  line-height: 1; }
+  .titleWrap .top {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 73px; }
+  .titleWrap .middle {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 22px 0 28px 0; }
+  .titleWrap .bottom {
+    font-size: 25px;
+    font-weight: 700; }
+
+.pyramidWrap {
+  width: 992px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 60px auto 108px auto; }
+  .pyramidWrap .level {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    position: relative; }
+    .pyramidWrap .level .border {
+      position: absolute;
+      height: 3px;
+      background: #fff; }
+    .pyramidWrap .level .borderB {
+      top: 165px;
+      left: -99px; }
+    .pyramidWrap .level .borderL {
+      width: 196px;
+      top: 82px;
+      left: -148px;
+      -webkit-transform: rotate(-59.2deg);
+          -ms-transform: rotate(-59.2deg);
+              transform: rotate(-59.2deg); }
+    .pyramidWrap .level .borderR {
+      width: 196px;
+      top: 82px;
+      right: -148px;
+      -webkit-transform: rotate(59.2deg);
+          -ms-transform: rotate(59.2deg);
+              transform: rotate(59.2deg); }
+    .pyramidWrap .level .content .text {
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center; }
+    .pyramidWrap .level .info {
+      width: 150px;
+      position: absolute;
+      top: 66px;
+      left: -134px;
+      -webkit-transform: rotate(-59.2deg);
+          -ms-transform: rotate(-59.2deg);
+              transform: rotate(-59.2deg); }
+      .pyramidWrap .level .info .text {
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+        left: 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #51423d;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.3; }
+      .pyramidWrap .level .info .decor {
+        height: 11px;
+        border: 2px solid #fff;
+        border-bottom: none; }
+  .pyramidWrap .level0 {
+    border-bottom: 168px solid #16a69d;
+    width: 100.5%; }
+    .pyramidWrap .level0 .borderB {
+      width: 994px; }
+    .pyramidWrap .level0 .content {
+      position: relative;
+      width: 855px;
+      top: 20px;
+      left: -27px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .pyramidWrap .level0 .content .item {
+        width: 33%; }
+        .pyramidWrap .level0 .content .item .imgHolder {
+          height: 106px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end; }
+          .pyramidWrap .level0 .content .item .imgHolder img {
+            height: 106px;
+            width: auto; }
+        .pyramidWrap .level0 .content .item .text {
+          margin-top: 12px;
+          color: #06645e; }
+  .pyramidWrap .level1 {
+    border-bottom: 168px solid #a5bb4c;
+    width: 80.4%; }
+    .pyramidWrap .level1 .borderB {
+      width: 795px; }
+    .pyramidWrap .level1 .content {
+      position: relative;
+      width: 645px;
+      top: 20px;
+      left: -23px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .pyramidWrap .level1 .content .item {
+        width: 33%; }
+        .pyramidWrap .level1 .content .item .imgHolder {
+          height: 105px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end; }
+          .pyramidWrap .level1 .content .item .imgHolder img {
+            height: 105px;
+            width: auto; }
+        .pyramidWrap .level1 .content .item .text {
+          margin-top: 12px;
+          color: #5a692a; }
+  .pyramidWrap .level2 {
+    border-bottom: 168px solid #ffd801;
+    width: 60.2%; }
+    .pyramidWrap .level2 .borderB {
+      width: 595px; }
+    .pyramidWrap .level2 .content {
+      position: relative;
+      width: 440px;
+      top: 23px;
+      left: -23px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .pyramidWrap .level2 .content .item {
+        width: 25%; }
+        .pyramidWrap .level2 .content .item .imgHolder {
+          height: 88px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end; }
+          .pyramidWrap .level2 .content .item .imgHolder img {
+            height: 88px;
+            width: auto; }
+        .pyramidWrap .level2 .content .item .text {
+          margin-top: 12px;
+          color: #765e38; }
+        .pyramidWrap .level2 .content .item:first-child .imgHolder img {
+          height: 61px;
+          width: auto; }
+  .pyramidWrap .level3 {
+    border-bottom: 168px solid #f58c1f;
+    width: 40.2%; }
+    .pyramidWrap .level3 .borderB {
+      width: 396px; }
+    .pyramidWrap .level3 .borderL {
+      left: -147px; }
+    .pyramidWrap .level3 .borderR {
+      right: -147px; }
+    .pyramidWrap .level3 .content {
+      position: relative;
+      width: 241px;
+      top: 13px;
+      left: -21px; }
+      .pyramidWrap .level3 .content .text {
+        color: #8e4222;
+        margin: 8px auto 0 auto;
+        width: 67%; }
+  .pyramidWrap .level4 {
+    border-bottom: 168px solid #f3724b;
+    width: 16.8%; }
+    .pyramidWrap .level4 .borderB {
+      width: 198px; }
+    .pyramidWrap .level4 .borderL {
+      width: 194px;
+      top: 83px;
+      left: -146px;
+      -webkit-transform: rotate(-59.2deg);
+          -ms-transform: rotate(-59.2deg);
+              transform: rotate(-59.2deg); }
+    .pyramidWrap .level4 .borderR {
+      width: 194px;
+      top: 83px;
+      right: -146px;
+      -webkit-transform: rotate(59.2deg);
+          -ms-transform: rotate(59.2deg);
+              transform: rotate(59.2deg); }
+    .pyramidWrap .level4 .content {
+      position: relative;
+      width: 198px;
+      top: 67px;
+      left: -99px; }
+      .pyramidWrap .level4 .content img {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 0; }
+      .pyramidWrap .level4 .content .text {
+        position: relative;
+        z-index: 1;
+        color: #603620; }
